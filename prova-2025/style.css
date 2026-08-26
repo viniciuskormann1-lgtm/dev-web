@@ -1,0 +1,162 @@
+html {
+    font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btm {
+    background-color: #96BB7C;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 0.8rem;
+    color: green;
+}
+p{
+    color:#737373;
+    font-size: 1rem;
+}
+
+/* === header === */
+
+header {
+    background-color: #fff2f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+}
+
+header h1 {
+    font-weight: bold;
+}
+header ul {
+    display: flex;
+    gap: 16px;
+    font-size: 0.8rem;
+}
+
+.btn {
+    background-color: #96BB7C;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+}
+
+/* === banner ==*/
+
+main section.banner {
+    display: flex;
+    background-color: #fff2f3;
+    padding: 1vw 10vw 0 10vw;
+    gap: 1vw;
+}
+
+section.banner h3 {
+    margin: 10vw 0 3vw 1vw;
+}
+
+section.banner h2 {
+    margin: 0 0 3vw 0;
+}
+
+
+
+section.banner p {
+    font-size: 1rem;
+    margin: 0 0 3vw 0;
+}
+
+section.banner a.btmBorder {
+    background-color: #fff2f3;
+    border: 2px solid green;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px;
+    color: green;
+
+section.team {
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+
+section.team h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1vw 0 1vw 0;
+}
+}
+
+/* === team === */
+
+section.team {
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+
+section.team h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1vw 0 1vw 0;
+}
+
+section.team p {
+    font-size: 0.9rem;
+}
+section.team ul{
+    margin: 7vw 0 0 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+section.team ul li{
+    width: 25%;
+    background-color:#ECF0E8 ;
+    text-align: center;
+    font: size 0.8rem;
+}
+section.team ul li h4{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1vw 0 1vw 0;
+}
+section.team ul li p{
+    font-size: 0.8rem;
+    margin: 0 0 1vw 0;
+}FFF2F3
+section.team ul{
+    margin: 7vw 0 0 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+section.team ul li{
+    width: 25%;
+    background-color:#ECF0E8 ;
+    text-align: center;
+    font: size 0.8rem;
+}
+section.newSla {
+    background-color:#FFF2F3;
+    text-align: center;
+    padding: 5vw 10vw 6vw 10vw;
+}
+section.newSla h2{
+    margin: 2vw 0 1vw 0;
+}
+footer {
+    display: flex;
+    justify-content:center;
+    gap: 20vw;
+    padding:5vw 10vw 6vw 10vw;
+}
+footer ul{
+    display: flex;
+    gap: 16px;
+}
+
