@@ -1,3 +1,25 @@
 html {
-  font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+  font-size: clamp(1rem, calc(0.7rem + 1vw), 1.625rem);
+  font-family:monospace;
 }
+header{
+  text-align: center;
+  padding: 5vw 0 0 0;
+}
+header li{
+  margin: 1vw 0;
+
+}
+ul li.amarelo {
+  color:#FBBC05;
+}
+ul li.amarelo-btn{
+  background-color: #FBBC05;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 7px 14px 7px 14px;
+}
+@media only screen and (max-width: 600px) {
+	
+} 
