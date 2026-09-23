@@ -94,14 +94,43 @@ header li {
   font-size: 1.2rem;
   font-weight: 700;
 }
+section.download h2{
+  font: 3rem;
+  margin: 20px 0 20px 0;
+  font-weight: bold;    
+}
+section.download button{
+  background: #252b42;
+}
 
 .download {
+  background-color:#fbbc05 ;
   margin: 3vw 5vw;
   border-radius: 8px;
   padding: 10px;
   color: white;
 }
-
+.services{
+  margin: 3vw 5vw 3vw 5vw;
+}
+.services h2{
+  font-size: 1.7rem;
+}
+.services h3 {
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+.services p{
+  font-size: 0.9rem;
+}
+.services div {
+  margin: 0 0 20px 0;
+}
+.services li{
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin: 10px 0;
+}
 
 @media only screen and (min-width: 600px) {
   nav {
@@ -154,13 +183,23 @@ header li {
   }
   .download{
     padding: 3vw 3vw 3vw 3vw;
-    background: url(../images/iphone-pet-ui.png) no-repeat, url(../images/iphone-pet-ui.png) no-repeat;
-    background-size: auto 140%, auto 100%;
-    background-position: center -50%, 80% -5vw;
+    background: url(../images/iphone-pet-ui.png) no-repeat, url(../images/iphone-pet-ui.png) no-repeat, #fbbc05;
+    background-size: auto 120%, auto 100%;
+    background-position: 60% -70%, 100% -5vw;
   }
-  
-
   .download p {
     width: 20%;
+    margin:0 0 5vw 0 ;
+  }
+  .services{
+    display: flex;
+    gap: 10vw;
+  }
+  .services div{
+    width: 50%;
+  }
+  .services ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
