@@ -96,15 +96,12 @@ header li {
 }
 
 .download {
-  background: #fbbc05;
   margin: 3vw 5vw;
   border-radius: 8px;
   padding: 10px;
   color: white;
 }
 
-.download h2 {
-}
 
 @media only screen and (min-width: 600px) {
   nav {
@@ -155,6 +152,13 @@ header li {
   .ready div.lista li {
     width: 40%;
   }
+  .download{
+    padding: 3vw 3vw 3vw 3vw;
+    background: url(../images/iphone-pet-ui.png) no-repeat, url(../images/iphone-pet-ui.png) no-repeat;
+    background-size: auto 140%, auto 100%;
+    background-position: center -50%, 80% -5vw;
+  }
+  
 
   .download p {
     width: 20%;
